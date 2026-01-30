@@ -33,6 +33,7 @@ public class Vehiculo
         this.modelo = modelo;
         this.cilindrada = cilindrada;
         this.disponible = true;
+        this.baja = false;
     }
     
     //CONSTRUCTOR COPIA
@@ -52,9 +53,9 @@ public class Vehiculo
         return baja;
     }
 
-    public boolean setBaja(boolean baja) 
+    public void setBaja(boolean baja) 
     {
-        return this.baja;
+        this.baja = baja;
     }
     
     public String getMatricula() 

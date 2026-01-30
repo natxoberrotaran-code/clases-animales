@@ -38,7 +38,7 @@ public class Alquiler
         this.cliente = cliente;
         this.vehiculo = vehiculo;
         this.vehiculo.setDisponible(false);
-        
+        this.baja = false;
     }
     
     //GETERS ATRIBUTOS

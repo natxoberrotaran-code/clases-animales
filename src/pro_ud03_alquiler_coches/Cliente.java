@@ -43,6 +43,7 @@ public class Cliente
         this.direccion = otroCliente.direccion;
         this.localidad = otroCliente.localidad;
         this.codigoPostal = otroCliente.codigoPostal;
+        this.baja = false;
         
     }
 

@@ -69,6 +69,7 @@ public class ES
     public static int leerEntero(String _msg)
     {
         System.out.println(_msg);
+        System.out.println("");
         int numero = 0;
         boolean entero = true;
         do
